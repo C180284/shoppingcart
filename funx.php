@@ -8,14 +8,11 @@ require_once "Item.php";
  */
 function createItems():array {
 	$items = array(
-		new Item("アップライトピアノ", 600000),
-		new Item("電子ピアノ", 220000), 
-		new Item("ローズピアノ", 280000),
-		new Item("エレキギター", 80000),
-		new Item("アコースティックギター", 200000),
-		new Item("エレキベース", 120000),
-		new Item("アップライトベース", 420000)
+		new Item("Head First PHP & MySQL", 4,650, Lynn Beighley, 978-4873114446),
+		new Item("リーダブルコード", 2,600, Dustin Boswell, 978-4873115658),
+		new Item("Head First デザインパターン", 5,060, Eric Freeman, 978-4873112497),
+		new Item("PHPによるデザインパターン入門", 2,400, 下岡 秀幸, 978-4798015163),
+
 	);	
-	return $items;
 }
 ?>
